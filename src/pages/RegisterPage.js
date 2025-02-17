@@ -5,6 +5,10 @@ const RegisterPage = () => {
         <div>
             <HeaderComponent/>
             <h1>Register</h1>
+            
+
+
+            
         </div>
     )
 }
