@@ -1,10 +1,10 @@
 import HeaderComponent from "../components/headerComponent"
 
-const RegisterPage = () => {
+const ServicePage = () => {
     return (
         <div>
             <HeaderComponent/>
-            <h1>Register</h1>
+            <h1>Services</h1>
             
 
 
@@ -13,4 +13,4 @@ const RegisterPage = () => {
     )
 }
 
-export default RegisterPage
+export default ServicePage
