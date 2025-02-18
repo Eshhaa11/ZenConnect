@@ -145,7 +145,7 @@ form .button input:hover{
 
   form .user-details .input-box{
     margin-bottom: 15px;
-    width: calc(100% / 2 - 20px);
+    width: 100% ;
   }
 
   
