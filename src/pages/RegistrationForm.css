@@ -132,3 +132,7 @@ form .button input{
   border-radius: 5px;
   background: (90deg, #ff4b2b, #ff416c);
 }
+
+form .button input:hover{
+  background: (90deg, #ff4b2b, #ff416c);
+}
