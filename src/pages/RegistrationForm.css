@@ -127,5 +127,6 @@ form .button input{
   color: #fff;
   border: none;
   font-size: 18px;
+  font-weight: 500;
   background: (90deg, #ff4b2b, #ff416c);
 }
