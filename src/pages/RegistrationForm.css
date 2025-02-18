@@ -48,7 +48,7 @@ body{
 }
 
 form .user-details .input-box{
-  
+  margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
 }
 
@@ -138,3 +138,16 @@ form .button input:hover{
 
 }
 
+@media (max-width: 584px){
+  .container {
+   max-width: 100%;
+  }
+
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+
+  
+
+}
