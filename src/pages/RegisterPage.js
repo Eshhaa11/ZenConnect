@@ -3,41 +3,63 @@ import './RegistrationForm.css';
 
 const RegisterPage = () => {
     return (
-        <div>
+        <div class = "container">
             <HeaderComponent/>
-            <h1>Register</h1>
-            <form>
-  <div class="form-group">
-    <label>Full Name</label>
-    <input type="text" class="form-control" placeholder="Enter full name"/>
-  </div>
-  <div class="form-group">
-    <label>Phone Number</label>
-    <input type="tel" class="form-control" placeholder="Enter phone number"/>
-  </div>
-  <div class="form-group">
-    <label>Email address</label>
-    <input type="email" class="form-control" placeholder="Enter email"/>
-  </div>
-  <div class="form-group">
-    <label>Password</label>
-    <input type="password" class="form-control" placeholder="Password"/>
-  </div>
-  <div class="form-group">
-    <label>Confirm Password</label>
-    <input type="password" class="form-control" placeholder="Confirm password"/>
-  </div>
-  <div class="form-group">
-    <label>Gender</label>
-    <select id="cars">
-      <option value="female">Female</option>
-      <option value="male">Male</option>
-      <option value="other">Other</option>
-    </select>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-     </form>
-     </div>
+           <div class="title">Registration Form</div>
+            <form action = "#">
+              <div class="user-details">
+                <div class = "input-box">
+                  <span class="details">Full Name</span>
+                  <input type="text" placeholder="Enter your full name" required/>
+                </div>
+                <div class = "input-box">
+                  <span class="details">User Name</span>
+                  <input type="text" placeholder="Enter your user name" required/>
+                </div>
+                <div class = "input-box">
+                  <span class="details">Phone Number</span>
+                  <input type="number" placeholder="Enter your phone number" required/>
+                </div>
+                <div class = "input-box">
+                  <span class="details">Email</span>
+                  <input type="email" placeholder="Enter your email" required/>
+                </div>
+                <div class = "input-box">
+                  <span class="details">Password</span>
+                  <input type="password" placeholder="Enter your password" required/>
+                </div>
+                <div class = "input-box">
+                  <span class="details">Password</span>
+                  <input type="password" placeholder="Enter your password once more" required/>
+                </div>
+                <div class = "gender-details">
+                  <input type ="radio" name="gender" id="dot-1"/>
+                  <input type ="radio" name="gender" id="dot-2"/>
+                  <input type ="radio" name="gender" id="dot-3"/>
+
+                  <span class="gender-title">Gender</span>
+                  <div class="category">
+                    <label for ="dot-1">
+                      <span class= "dot one"></span>
+                      <span class= "gender">Female</span>
+                      </label>
+                      <label for ="dot-2">
+                      <span class= "dot two"></span>
+                      <span class= "gender">Male</span>
+                      </label>
+                      <label for ="dot-3">
+                      <span class= "dot three"></span>
+                      <span class= "gender">Other</span>
+                      </label>
+                </div>
+              </div>
+              <div class = "button">
+                <input type="submit" value="Register"/>
+              </div>
+            </div>
+  
+            </form>
+        </div>
     )
 }
 
