@@ -158,6 +158,10 @@ form .button input:hover{
     overflow-y: scroll;
   }
   
+  .user-details::-webkit-scrollbar {
+    width: 10px;
+
+  }
 
   
 
