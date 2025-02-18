@@ -152,6 +152,10 @@ form .button input:hover{
     width: 100%;
     
   }
+
+  .container form .user-details {
+    max-height: 300px
+  }
   
 
   
