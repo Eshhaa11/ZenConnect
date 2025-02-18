@@ -129,5 +129,6 @@ form .button input{
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 1px;
+  border-radius: 5px;
   background: (90deg, #ff4b2b, #ff416c);
 }
